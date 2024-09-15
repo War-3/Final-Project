@@ -59,7 +59,7 @@ const quizValidation = async(req, res, next)=>{
     const { category, userId, quizId, quizAns} =req.body
     const wans ="Incorrect!"
     const rAns = "Correct!"
-    let totalcorrect = 0
+   
 
    
     if(quizAns[0].ans =="A"){
